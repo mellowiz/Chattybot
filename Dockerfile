@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM arm32v6/alpine:3.10
 
 # First test, with Ping
 #CMD ["/bin/ping", "10.0.2.70", "-c", "30"]

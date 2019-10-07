@@ -5,7 +5,6 @@ TARGET=10.0.2.70					# IP address of the listener
 PORT=5555						# Destination port
 STRING1=$(/bin/hostname)				# Just some dummy text to identify ourselves, hostname
 STRING2=$(ip a | tail -n2 | awk '/inet/ {print $2}')	# ... IP address
-#DATE=$(date +"%Y/%m/%d %H:%M")				# Current date
 MINW=60							# Minimum wait time [s]
 MAXW=300						# Maximum wait time [s]
 
